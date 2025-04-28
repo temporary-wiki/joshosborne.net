@@ -10,40 +10,60 @@ body {
     cursor: default;
     padding: 12px;
 }
+
 p {
     padding: 0;
     margin: 0;
 }
+
 a {
     text-decoration: none;
     color: royalblue;
 }
+
 strong {
     font-weight: 700;
 }
+
+ul {
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+li {
+    /* display: inline; */
+}
+
 a:hover {
     color: black;
 }
+
 section {
     margin-bottom: 32px;
 }
+
 section:last-of-type {
     margin-bottom: 0;
 }
+
 section:first-of-type {
     margin-top: 64px;
 }
+
 .icon {
     font-size: 96px;
 }
+
 .icon:hover {
     color: black;
 }
+
 .images img {
     width: 100%;
     height: auto;
     margin: 0;
 }
+
 .email {
     line-break: anywhere;
 }
