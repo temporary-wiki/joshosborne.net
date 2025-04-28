@@ -1,7 +1,7 @@
 body {
     background: lavenderblush;
     color: #161616;
-    font-size: 56px;
+    font-size: 48px;
     font-family: "neue-haas-grotesk-text", sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -25,16 +25,16 @@ a:hover {
     color: black;
 }
 section {
-    margin-bottom: 64px;
+    margin-bottom: 32px;
 }
 section:last-of-type {
     margin-bottom: 0;
 }
 section:first-of-type {
-    margin-top: 128px;
+    margin-top: 64px;
 }
 .icon {
-    font-size: 148px;
+    font-size: 96px;
 }
 .icon:hover {
     color: black;
@@ -46,4 +46,40 @@ section:first-of-type {
 }
 .email {
     line-break: anywhere;
+}
+
+@media (min-width: 750px) {
+    body {
+        font-size: 56px;
+    }
+    .icon {
+        font-size: 148px;
+    }
+    section {
+        margin-bottom: 64px;
+    }
+    section:last-of-type {
+        margin-bottom: 0;
+    }
+    section:first-of-type {
+        margin-top: 128px;
+    }
+}
+
+@media (min-width: 1300px) {
+    body {
+        padding: 64px;
+    }
+    .icon {
+        font-size: 148px;
+    }
+    section {
+        margin-bottom: 64px;
+    }
+    section:last-of-type {
+        margin-bottom: 0;
+    }
+    section:first-of-type {
+        margin-top: 128px;
+    }
 }
