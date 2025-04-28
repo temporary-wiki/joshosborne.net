@@ -43,7 +43,7 @@ section {
 }
 
 section:last-of-type {
-    margin-bottom: 0;
+    margin-bottom: 64px;
 }
 
 section:first-of-type {
@@ -78,28 +78,24 @@ section:first-of-type {
     section {
         margin-bottom: 64px;
     }
-    section:last-of-type {
-        margin-bottom: 0;
-    }
     section:first-of-type {
         margin-top: 128px;
+    }
+    section:last-of-type {
+        margin-bottom: 128px;
     }
 }
 
 @media (min-width: 1300px) {
     body {
         padding: 64px;
+        max-width: 1300px;
+        margin: auto;
     }
     .icon {
         font-size: 148px;
     }
     section {
         margin-bottom: 64px;
-    }
-    section:last-of-type {
-        margin-bottom: 0;
-    }
-    section:first-of-type {
-        margin-top: 128px;
     }
 }
