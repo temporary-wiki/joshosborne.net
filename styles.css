@@ -30,10 +30,6 @@ ul {
     padding: 0 auto;
 }
 
-li {
-    /* display: inline; */
-}
-
 a:hover {
     color: black;
 }
@@ -86,7 +82,7 @@ section:first-of-type {
     }
 }
 
-@media (min-width: 1300px) {
+@media (min-width: 1500px) {
     body {
         padding: 64px;
         max-width: 1300px;
