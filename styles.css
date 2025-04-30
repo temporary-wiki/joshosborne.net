@@ -1,5 +1,5 @@
 body {
-    background: lavenderblush;
+    background: #fff0f5;
     color: #161616;
     font-size: 48px;
     font-family: "neue-haas-grotesk-text", sans-serif;
@@ -18,7 +18,7 @@ p {
 
 a {
     text-decoration: none;
-    color: royalblue;
+    color: #4169e1;
 }
 
 strong {
@@ -46,11 +46,11 @@ section:first-of-type {
     margin-top: 64px;
 }
 
-.icon {
-    font-size: 96px;
+.asterism {
+    width: 125px;
 }
 
-.icon:hover {
+.asterism:hover {
     color: black;
 }
 
