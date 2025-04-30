@@ -70,6 +70,29 @@ section:first-of-type {
     display: inline-block;
 }
 
+audio::-webkit-media-controls-timeline,
+video::-webkit-media-controls-timeline,
+video::-webkit-media-controls-volume-slider,
+video::-webkit-media-controls-current-time-display,
+video::-webkit-media-controls-time-remaining-display,
+video::-webkit-media-controls-mute-button,
+video::-webkit-media-controls-toggle-closed-captions-button {
+    display: none;
+}
+
+audio::-webkit-media-controls-panel,
+video::-webkit-media-controls-panel {
+    background: none;
+}
+
+audio::-webkit-media-controls-play-button, video::-webkit-media-controls-play-button, video::-webkit-media-controls-fullscreen-button {
+    -webkit-appearance: media-play-button;
+    background-color: black;
+    color: white;
+    padding: 12px;
+    border-radius: 2px;
+}
+
 @media (min-width: 750px) {
     body {
         font-size: 56px;
