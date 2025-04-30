@@ -1,7 +1,7 @@
 body {
     background: #fff0f5;
     color: #161616;
-    font-size: 48px;
+    font-size: 32px;
     font-family: "neue-haas-grotesk-text", sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -47,7 +47,7 @@ section:first-of-type {
 }
 
 .asterism {
-    width: 125px;
+    width: 72px;
 }
 
 .asterism:hover {
@@ -66,7 +66,7 @@ section:first-of-type {
 }
 
 .arrow {
-    width: 40px;
+    width: 24px;
     display: inline-block;
 }
 
@@ -85,6 +85,12 @@ section:first-of-type {
     }
     section:last-of-type {
         margin-bottom: 128px;
+    }
+    .asterism {
+        width: 144px;
+    }
+    .arrow {
+        width: 40px;
     }
 }
 
