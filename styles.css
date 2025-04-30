@@ -54,6 +54,7 @@ section:first-of-type {
     color: black;
 }
 
+
 .images img {
     width: 100%;
     height: auto;
@@ -65,7 +66,7 @@ section:first-of-type {
 }
 
 .arrow {
-    width: 48px;
+    width: 40px;
     display: inline-block;
 }
 
@@ -100,3 +101,28 @@ section:first-of-type {
         margin-bottom: 64px;
     }
 }
+
+.role {
+
+}
+
+.title, .org, .dates, .desc {
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: -.01em;
+    margin: 0;
+    padding: 0;
+}
+
+.title, .org, .dates {
+    /* display: inline; */
+}
+
+.desc {
+    line-height: 1.2em;
+}
+
+/* .org::after, .title::after {
+    content: '·';
+    margin: 0 6px;
+} */
